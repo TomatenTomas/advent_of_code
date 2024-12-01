@@ -17,17 +17,20 @@ seconds.Sort();
 
 for (int i = 0; i < firsts.Count(); i++) {
     int diff = Math.Abs(firsts[i] - seconds[i]);
-    // Console.WriteLine("Diff: {0}", diff);
     total_diff += diff;
 }
 Console.WriteLine("Total diff: {0}", total_diff);
 
-//End of part 1
+// 1222801
+// End of part 1
 
+// Start part 2
 int total = 0;
 for (int i = 0; i < firsts.Count(); i++) {
     int first_item = firsts[i];
-    int counts = seconds.Count(x => x == first_item);
+    int counts = seconds.Count(x => x == first_item);   // There is 1000 % better ways to do this, not thinking about that right now
     total += first_item * counts;
 }
 Console.WriteLine("Total counts: {0}", total);
+// 22545250
+// End of part 2
