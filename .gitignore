@@ -1,0 +1,5 @@
+bin/
+obj/
+*.json
+*.sln
+*.csproj
