@@ -55,7 +55,7 @@ foreach (String[] report_array in reports) {    // Get each string[] from all st
 
 Console.WriteLine("Safe reports: {0}", safe_reports);
 // Part 1 483
-// Part 2 
+// Part 2 528
 
 
 
