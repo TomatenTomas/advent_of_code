@@ -1,7 +1,7 @@
 using System.Numerics;
 using System.Text.RegularExpressions;
 
-class Tokenizer {
+class AOC4 {
     static void Main() {
         StreamReader reader = File.OpenText("input.txt");
         List<String> lines = [];    // I realize i don't have to do String[] here but i cba now to fix
