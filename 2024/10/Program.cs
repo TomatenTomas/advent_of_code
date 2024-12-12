@@ -1,4 +1,4 @@
-class AOC9 {
+class AOC10 {
     static void Main() {
         StreamReader reader = File.OpenText("input.txt");
         String input_line;
